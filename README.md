@@ -90,3 +90,24 @@ After this works, the easiest next steps are:
 - give it a search tool
 - let it read files from a chosen folder
 - add memory beyond the current chat session
+
+## Contributing
+
+Contributions are welcome, especially from beginner programmers.
+
+### 60-second student setup checklist
+
+1. Fork this repo.
+2. Clone your fork.
+3. Create and activate a virtual environment.
+4. Install dependencies from `requirements.txt`.
+5. Copy `.env.example` to `.env` and add your own API key.
+6. Run `python main.py` (Windows) or `python3 main.py` (macOS).
+
+### Contribution flow
+
+1. Create a feature branch.
+2. Make a small, focused change.
+3. Test by running the app and trying at least one prompt.
+4. Commit with a clear message.
+5. Open a pull request with what changed and why.
