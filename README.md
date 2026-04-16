@@ -83,6 +83,10 @@ python3 main.py
 4. The tool result is sent back to the model.
 5. The model returns a final answer.
 
+## Version organization
+
+See [docs/project_structure_guide.md](docs/project_structure_guide.md) for a quick map of which files belong to terminal baseline versus Streamlit.
+
 ## Next upgrades
 
 After this works, the easiest next steps are:
