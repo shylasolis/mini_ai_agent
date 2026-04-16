@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/
+open_ai_key.txt
+docs/AI_Agent_Student_Handout.md
+docs/AI_Agent_Student_Handout.pdf
