@@ -35,6 +35,10 @@ The project stays intentionally small:
 
 You can read the whole project in a few minutes and see how the interface changed without changing the core agent idea.
 
+## Model background
+
+This project uses `gpt-4.1-mini` by default. For a student-friendly overview of what that model is, what is publicly known about how it was built, what it is good at, and what is not publicly disclosed, see [docs/model_background_gpt_4_1_mini.md](docs/model_background_gpt_4_1_mini.md).
+
 ## Setup
 
 1. Create a Python virtual environment.
