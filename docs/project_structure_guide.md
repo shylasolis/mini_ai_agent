@@ -4,12 +4,16 @@ Use this guide to quickly identify which files belong to each version.
 
 ## Terminal baseline (Version 1)
 
+This version lives on the `main` branch.
+
 - [main.py](main.py): terminal entry point
 - [agent.py](agent.py): terminal agent loop and API calls
 - [tools.py](tools.py): shared local tools
 - [requirements.txt](requirements.txt): core dependencies
 
 ## Streamlit version (Version 2)
+
+This version lives on the `streamlit-version` branch.
 
 - [streamlit_app/app.py](streamlit_app/app.py): Streamlit UI entry point
 - [requirements_streamlit.txt](requirements_streamlit.txt): Streamlit dependencies
@@ -23,7 +27,7 @@ Use this guide to quickly identify which files belong to each version.
 ## Rule of thumb
 
 - If the file is inside [streamlit_app/](streamlit_app), it is Streamlit-specific.
-- If the file is in the project root and existed before Streamlit work, it is part of the terminal baseline.
+- If the file is in the project root on `main`, it is part of the terminal baseline.
 - Keep shared logic in one place to avoid duplicate code.
 
 ## Branch strategy

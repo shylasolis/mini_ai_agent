@@ -2,8 +2,8 @@
 
 This repository now supports two versions of the same AI agent idea:
 
-1. Terminal baseline (`main.py` + `agent.py`) on branch `main`
-2. Streamlit UI version (`streamlit_app/app.py`) on branch `streamlit-version`
+1. Terminal baseline on branch `main`
+2. Streamlit UI version on branch `streamlit-version`
 
 ## Why use this for teaching
 
@@ -19,6 +19,7 @@ The core ideas stay the same:
 
 ## What changed from terminal to Streamlit
 
+- Terminal-only files remain on `main`.
 - Input/output loop changed from `input()` and `print()` to `st.chat_input()` and `st.chat_message()`.
 - Conversation history moved to `st.session_state.messages`.
 - Error messages now render in UI using `st.error(...)`.
@@ -36,6 +37,7 @@ The core ideas stay the same:
 ### Terminal version (main branch)
 
 ```powershell
+git switch main
 python main.py
 ```
 
@@ -44,6 +46,7 @@ python main.py
 Install Streamlit dependency first:
 
 ```powershell
+git switch streamlit-version
 pip install -r requirements_streamlit.txt
 ```
 
