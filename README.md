@@ -8,6 +8,20 @@ You are viewing the `main` branch.
 
 This is the original terminal-based version of the project, where the user interacts with the agent by typing into the command line.
 
+## Teaching navigation
+
+- Terminal baseline branch: `main`
+- Streamlit branch: `streamlit-version`
+- View Streamlit branch on GitHub: `https://github.com/shylasolis/mini_ai_agent/tree/streamlit-version`
+- Compare branches on GitHub: `https://github.com/shylasolis/mini_ai_agent/compare/main...streamlit-version`
+
+## Teaching navigation
+
+- Terminal baseline branch: `main`
+- Streamlit branch: `streamlit-version`
+- View Streamlit branch on GitHub: `https://github.com/shylasolis/mini_ai_agent/tree/streamlit-version`
+- Compare branches on GitHub: `https://github.com/shylasolis/mini_ai_agent/compare/main...streamlit-version`
+
 It can:
 - chat with you in the terminal
 - calculate basic arithmetic
@@ -24,6 +38,10 @@ The project stays intentionally small:
 You can read the whole project in a few minutes and see how an agent works end to end.
 
 If you want the browser-based version, switch to the `streamlit-version` branch.
+
+## Model background
+
+This project uses `gpt-4.1-mini` by default. For a student-friendly overview of what that model is, what is publicly known about how it was built, what it is good at, and what is not publicly disclosed, see [docs/model_background_gpt_4_1_mini.md](docs/model_background_gpt_4_1_mini.md).
 
 ## Setup
 
