@@ -2,6 +2,12 @@
 
 This is a small Python AI agent designed to be easy to read and easy to run.
 
+## Branch note
+
+You are viewing the `main` branch.
+
+This is the original terminal-based version of the project, where the user interacts with the agent by typing into the command line.
+
 It can:
 - chat with you in the terminal
 - calculate basic arithmetic
@@ -16,6 +22,8 @@ The project stays intentionally small:
 - `tools.py` contains the local tools
 
 You can read the whole project in a few minutes and see how an agent works end to end.
+
+If you want the browser-based version, switch to the `streamlit-version` branch.
 
 ## Setup
 
@@ -67,7 +75,7 @@ python3 main.py
 
 - `What time is it?`
 - `Calculate (24 + 18) / 3`
-- `Save a note that my next project should use Streamlit`
+- `Save a note that my first AI agent works`
 - `Show me my notes`
 
 ## Common issues
